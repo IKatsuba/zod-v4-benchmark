@@ -1,9 +1,8 @@
 {
   "version": "4",
   "specifiers": {
-    "npm:zod@3": "3.24.2",
-    "npm:zod@3.24.2": "3.24.2",
-    "npm:zod@next": "4.0.0-beta.20250411T005215"
+    "npm:zod@^3.24.2": "3.24.2",
+    "npm:zod@^4.0.0-beta.20250411T005215": "4.0.0-beta.20250411T005215"
   },
   "npm": {
     "@zod/core@0.3.3": {
@@ -18,5 +17,11 @@
         "@zod/core"
       ]
     }
+  },
+  "workspace": {
+    "dependencies": [
+      "npm:zod@^3.24.2",
+      "npm:zod@^4.0.0-beta.20250411T005215"
+    ]
   }
 }

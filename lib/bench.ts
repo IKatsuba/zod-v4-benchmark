@@ -1,4 +1,4 @@
-import { z as zod4 } from 'npm:zod@next';
+import { z as zod4 } from 'zod4';
 import { createSchema } from './create-schema.ts';
 import { createData } from './create-data.ts';
 

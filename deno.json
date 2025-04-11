@@ -1,5 +1,9 @@
 {
   "fmt": {
     "singleQuote": true
+  },
+  "imports": {
+    "zod3": "npm:zod@^3.24.2",
+    "zod4": "npm:zod@^4.0.0-beta.20250411T005215"
   }
 }

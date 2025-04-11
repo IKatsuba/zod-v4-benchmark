@@ -1,5 +1,5 @@
-import { z as zod3 } from 'npm:zod@3.24.2';
-import { z as zod4 } from 'npm:zod@next';
+import { z as zod3 } from 'zod3';
+import { z as zod4 } from 'zod4';
 
 export function createSchema(fn: (zod: typeof zod4) => any) {
   return {
